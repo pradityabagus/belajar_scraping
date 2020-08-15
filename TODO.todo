@@ -1,0 +1,12 @@
+- for every link
+    - visit page
+    - save title, content paragraphs, date into one row (in what?) 
+
+- for every row
+    - in content, find with regex: city, districs
+    - add new columns with city, district in that row
+    
+- using google places api, find lat long of that event occurs
+- append as new columns (lat,long)
+
+- export it as json, plot it in google maps
